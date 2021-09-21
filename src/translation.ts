@@ -4,14 +4,15 @@ import XHR from "i18next-xhr-backend";
 
 import translationEn from "./locales/en/translation.json";
 import translationEs from "./locales/es/translation.json";
+import translationDe from "./locales/de/translation.json";
 
 i18n
   .use(XHR)
   .use(LanguageDetector)
   .init({
     debug: false,
-    lng: "en",
-    fallbackLng: "en",
+    lng: "de",
+    fallbackLng: "de",
 
     keySeparator: false,
     interpolation: {
@@ -19,6 +20,10 @@ i18n
     },
 
     resources: {
+      de: {
+        translations: translationDe,
+      },
+
       en: {
         translations: translationEn,
       },
