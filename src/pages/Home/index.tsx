@@ -5,9 +5,11 @@ import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import PricingBlockContent from "../../content/PricingBlockContent.json";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
+const PricingBlock = lazy(() => import("../../components/PricingBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
@@ -24,11 +26,7 @@ const Home = () => {
         icon="developer.svg"
         id="intro"
       />
-      <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
-      />
+
       <ContentBlock
         type="left"
         title={AboutContent.title}
@@ -51,6 +49,28 @@ const Home = () => {
         icon="waving.svg"
         id="product"
       />
+      
+      <PricingBlock
+        title={PricingBlockContent.title}
+        price={PricingBlockContent.price}
+        content={PricingBlockContent.text}
+        button={PricingBlockContent.button}
+      />
+
+      <PricingBlock
+        title={PricingBlockContent.title}
+        price={PricingBlockContent.price}
+        content={PricingBlockContent.text}
+        button={PricingBlockContent.button}
+      />
+
+      <PricingBlock
+        title={PricingBlockContent.title}
+        price={PricingBlockContent.price}
+        content={PricingBlockContent.text}
+        button={PricingBlockContent.button}
+      />
+      
       <Contact
         title={ContactContent.title}
         content={ContactContent.text}

@@ -83,9 +83,9 @@ const Footer = ({ t }: any) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>Gastro&amp;IT Solutions</Para>
+              <Para>Landshuterstr. 72</Para>
+              <Para>84307 Eggenfelden</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
@@ -94,12 +94,6 @@ const Footer = ({ t }: any) => {
               </Large>
               <Large left="true" to="/">
                 {t("Blog")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Press")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Careers & Culture")}
               </Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
@@ -153,22 +147,13 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
+                href="https://www.instagram.com/"
+                src="instagram.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
+                href="https://www.facebook.com/"
+                src="facebook.svg"
               />
-              <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
-                src="linkedin.svg"
-              />
-              <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
-              />
-
             </FooterContainer>
           </Row>
         </Container>
