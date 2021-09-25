@@ -1,15 +1,17 @@
 import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
-import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
 import PricingBlockContent from "../../content/PricingBlockContent.json";
+import PricingBlockContent2nd from "../../content/PricingBlockContent2nd.json";
+import PricingBlockContent3rd from "../../content/PricingBlockContent3rd.json";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
-const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const PricingBlock = lazy(() => import("../../components/PricingBlock"));
+const PricingBlock2nd = lazy(() => import("../../components/PricingBlock2nd"));
+const PricingBlock3rd = lazy(() => import("../../components/PricingBlock3rd"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
@@ -57,18 +59,18 @@ const Home = () => {
         button={PricingBlockContent.button}
       />
 
-      <PricingBlock
-        title={PricingBlockContent.title}
-        price={PricingBlockContent.price}
-        content={PricingBlockContent.text}
-        button={PricingBlockContent.button}
+      <PricingBlock2nd
+        title={PricingBlockContent2nd.title}
+        price={PricingBlockContent2nd.price}
+        content={PricingBlockContent2nd.text}
+        button={PricingBlockContent2nd.button}
       />
 
-      <PricingBlock
-        title={PricingBlockContent.title}
-        price={PricingBlockContent.price}
-        content={PricingBlockContent.text}
-        button={PricingBlockContent.button}
+      <PricingBlock3rd
+        title={PricingBlockContent3rd.title}
+        price={PricingBlockContent3rd.price}
+        content={PricingBlockContent3rd.text}
+        button={PricingBlockContent3rd.button}
       />
       
       <Contact
