@@ -1,10 +1,10 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Bestellungen direkt aus Facebook empfangen",
+  "text": "Nutzen Sie Facebook Smart-Links, um mehr Kunden anzuziehen & Ihr Essen online zu verkaufen.Mit potenziellen Kunden auf Facebook in Kontakt zu treten, ist der richtige Schritt, um mehr Online-Präsenz zu erlangen.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Marketing Booser",
+      "content": "Integrierte Likes Funktion am Ende der Bestellung",
       "icon": "notes.svg"
     },
     {

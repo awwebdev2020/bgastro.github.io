@@ -1,12 +1,12 @@
 {
-  "title": "Start growing your Business",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Online Bestellsystem Für Restaurants",
+  "text": "Mit diesem Online Bestellsystem können Sie ganz einfach Essens-Bestellungen direkt auf Ihrer Website annehmen.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Funktionen"
     },
     {
-      "title": "Learn more",
+      "title": "Jetz Starten!",
       "color": "#fff"
     }
   ]
