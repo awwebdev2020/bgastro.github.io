@@ -56,6 +56,7 @@ const Home = () => {
         title={PricingBlockContent.title}
         price={PricingBlockContent.price}
         content={PricingBlockContent.text}
+        id="pricing"
         button={PricingBlockContent.button}
       />
 

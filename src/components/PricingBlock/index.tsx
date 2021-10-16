@@ -10,9 +10,11 @@ interface PricingBlockProps {
   content: string;
   button: string;
   t: any;
+  id: string;
+  
 }
 
-const PricingBlock = ({ title, price, content, button, t }: PricingBlockProps) => {
+const PricingBlock = ({ title, price, content, button, t, id}: PricingBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
     element.scrollIntoView({
@@ -20,7 +22,7 @@ const PricingBlock = ({ title, price, content, button, t }: PricingBlockProps) =
     });
   };
   return (
-    <PricingBlockSection>
+    <PricingBlockSection id={id}>
       <Slide direction="up">
         <Row justify="center" align="middle">
           <ContentWrapper>
