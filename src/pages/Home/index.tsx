@@ -3,6 +3,7 @@ import IntroContent from "../../content/IntroContent.json";
 import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
+import ProductFAQ from "../../content/ProductFAQ.json";
 import ContactContent from "../../content/ContactContent.json";
 import PricingBlockContent from "../../content/PricingBlockContent.json";
 import PricingBlockContent2nd from "../../content/PricingBlockContent2nd.json";
@@ -26,8 +27,7 @@ const Home = () => {
         content={IntroContent.text}
         button={IntroContent.button}
         icon="developer.svg"
-        id="intro"
-      />
+        id="intro" faq={""}      />
 
       <ContentBlock
         type="left"
@@ -35,22 +35,19 @@ const Home = () => {
         content={AboutContent.text}
         section={AboutContent.section}
         icon="graphs.svg"
-        id="about"
-      />
+        id="about" faq={""}      />
       <ContentBlock
         type="right"
         title={MissionContent.title}
         content={MissionContent.text}
         icon="product-launch.svg"
-        id="mission"
-      />
+        id="mission" faq={""}      />
       <ContentBlock
         type="left"
         title={ProductContent.title}
         content={ProductContent.text}
         icon="waving.svg"
-        id="product"
-      />
+        id="product" faq={""}      />
       
       <PricingBlock
         title={PricingBlockContent.title}
@@ -73,7 +70,15 @@ const Home = () => {
         content={PricingBlockContent3rd.text}
         button={PricingBlockContent3rd.button}
       />
-      
+
+      <ContentBlock
+        type="faq"
+        title={ProductFAQ.title}
+        content={ProductFAQ.text}
+        section={ProductFAQ.section}
+        icon="product-launch.svg"
+        id="faq"              />
+     
       <Contact
         title={ContactContent.title}
         content={ContactContent.text}

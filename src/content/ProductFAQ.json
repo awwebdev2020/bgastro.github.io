@@ -1,0 +1,17 @@
+{
+  "title": "FAQs",
+  "text": "Top 10 Fragen zum Online Ordering TEST test1",
+  "section": [
+    {
+      "title": "Marketing Booser",
+      "content": "Integrierte Likes Funktion am Ende der Bestellung",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Why styled-components?",
+      "content": "Styled Components gives you total control over your components.",
+      "icon": "notes.svg"
+    }
+  ]
+}
+
